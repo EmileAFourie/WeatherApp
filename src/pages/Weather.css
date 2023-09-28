@@ -1,0 +1,72 @@
+.outputFloat
+{
+    margin: auto;
+    height: auto;
+    width: 50em;
+    background-color: rgba(172, 172, 172, 0.9);
+    border-radius: 1em; 
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2); 
+    padding: 2em 2em 2em 2em ;
+    border-color: black;
+    font-size: large;
+    border: 2px solid black;
+}
+
+.body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(./images/sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+    height: 130vh;
+}
+
+.output-container
+{
+    background-color: #e4e0e0;
+    height: fit-content;
+    padding: 1em 1em 1em 1em;  
+    border: 1px solid black;
+    
+    
+}
+
+#cityHeading{
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;    
+}
+
+#box{
+margin-bottom: 1em;
+}
+
+#BackToHome{
+    color: black;
+}
+
+#switch{
+    font-weight: bold;
+    height: 40px;
+    border: 1px solid black;
+}
+
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+  }
+  
+  .icon {
+    margin-left: 8px;
+  }
+
+  .precipitation-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  
